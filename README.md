@@ -1,7 +1,7 @@
 Last Post on Mobile View
 ============
 
-Extensione per phpBB 3.1 per mostrare alla base di ogno forum l'ultimo messaggio che attualmente non è visibile nella visione più stretta.
+Extensione - phpBB 3.1 per mostrare alla base di ogni forum, l'ultimo messaggio scritto. Attualmente quando il viewport è molto piccolo come ad esempio uno smartphone, non è possibile visionarlo.
 
 ![Mobile Version](last.jpg)  
 `Mobile Version`
