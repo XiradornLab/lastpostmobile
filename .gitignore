@@ -31,9 +31,6 @@ $RECYCLE.BIN/
 # Thumbnails
 ._*
 
-# version check ignoring
-version_check
-
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
@@ -44,3 +41,6 @@ version_check
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# version check ignoring
+version_check
