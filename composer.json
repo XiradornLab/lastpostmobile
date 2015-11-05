@@ -1,0 +1,35 @@
+{
+   "name": "xiradorn/lastpostmobile",
+   "type": "phpbb-extension",
+   "description": "Enable the last post under the every forum in mobile phpbb view",
+   "homepage": "http://xiradorn.it",
+   "version": "1.0.0",
+   "time": "2015-11-05",
+   "keywords": [
+		"phpbb",
+		"extension",
+		"lastpostmobile"
+	],
+   "license": "GPL-2.0",
+   "authors": [{
+      "name": "Sir Xiradorn",
+      "email": "helper@stargate.xiradorn.it",
+      "homepage": "http://xiradorn.it",
+      "role": "Lead Developer"
+   }],
+   "require": {
+      "php": ">=5.3.3",
+      "composer/installers": "~1.0"
+   },
+   "extra": {
+      "display-name": "Last Post non Mobile View",
+      "soft-require" : {
+         "phpbb/phpbb": ">=3.1.0-RC2,<3.2.*@dev"
+      },
+        "version-check": {
+            "host": "xiradorn.it",
+            "directory": "/phpbb_version/lastpostmobile",
+            "filename": "version_check"
+        }
+   }
+}

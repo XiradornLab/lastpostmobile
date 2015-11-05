@@ -1,0 +1,28 @@
+/*!*
+ * Style for lastpostmobile extension
+ * @author: Sir Xiradorn
+ */
+
+/* Sir Xiradorn - Last Post on Mobile */
+.x-desktop-hide.x-last-post-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 550px) {
+	.x-desktop-hide.x-last-post-mobile {
+		display: block;
+	}
+}
+
+.x-desktop-hide.x-last-post-mobile {
+	padding-left: 45px;
+	background-color: #cadceb;
+	font-size: 1.1em;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.x-desktop-hide.x-last-post-mobile:hover {
+	background-color: #F6F4D0;
+}
+/* Sir Xiradorn - Last Post on Mobile */

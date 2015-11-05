@@ -1,0 +1,14 @@
+<div class="x-desktop-hide x-last-post-mobile">
+	<strong>{L_LAST_POST}: </strong>
+	<!-- IF forumrow.U_UNAPPROVED_TOPICS -->
+		<a href="{forumrow.U_UNAPPROVED_TOPICS}">{UNAPPROVED_IMG}</a>
+	<!-- ELSEIF forumrow.U_UNAPPROVED_POSTS -->
+		<a href="{forumrow.U_UNAPPROVED_POSTS}">{UNAPPROVED_POST_IMG}</a>
+	<!-- ENDIF -->
+	<!-- IF forumrow.LAST_POST_TIME --><dfn>{L_LAST_POST}</dfn>
+	<!-- IF forumrow.S_DISPLAY_SUBJECT -->
+		<a href="{forumrow.U_LAST_POST}" title="{forumrow.LAST_POST_SUBJECT}" class="lastsubject">{forumrow.LAST_POST_SUBJECT_TRUNCATED}</a> 
+	<!-- ENDIF --> 
+	<!-- IF not S_IS_BOT --><a href="{forumrow.U_LAST_POST}">{LAST_POST_IMG}</a><br/>
+	{L_POST_BY_AUTHOR} {forumrow.LAST_POSTER_FULL}<!-- ENDIF --><!-- ELSE -->{L_NO_POSTS}<!-- ENDIF -->
+</div>
