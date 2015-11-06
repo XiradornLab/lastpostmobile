@@ -1,7 +1,7 @@
 Last Post on Mobile View
 ============
 
-Extensione - phpBB 3.1 Abilita la visione dell'ultimo post anche nel breakpoint a 500px. In sostanza ne permette la visione sia nel forumlist, sia nella topiclist quando il viewport è molto piccolo come ad esempio un smartphone o dispositivi con una larghezza inferiore a 500px
+Extensione - phpBB 3.1 Abilita la visione dell'ultimo post anche nel breakpoint a 500px nel forumlist e 700px nella topiclist. In sostanza ne permette la visione sia nel forumlist, sia nella topiclist quando il viewport è molto piccolo come ad esempio un smartphone o dispositivi con una larghezza inferiore a 500px per il forumlist e 700px per la topiclist
 
 ![ForumList](last.jpg) ![TopicList](last_t.jpg)  
 `Forumlist` | `Topiclist`  
