@@ -4,8 +4,15 @@
  */
 
 /* Sir Xiradorn - Last Post on Mobile */
-.x-desktop-hide.x-last-post-mobile {
+.x-desktop-hide.x-last-post-mobile,
+.x-desktop-hide.x-last-post-topic-mobile {
 	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.x-desktop-hide.x-last-post-topic-mobile {
+		display: block;
+	}
 }
 
 @media screen and (max-width: 550px) {
@@ -24,5 +31,9 @@
 
 .x-desktop-hide.x-last-post-mobile:hover {
 	background-color: #F6F4D0;
+}
+
+.x-desktop-hide.x-last-post-topic-mobile a {
+	font-weight: bold;
 }
 /* Sir Xiradorn - Last Post on Mobile */

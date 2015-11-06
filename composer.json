@@ -1,9 +1,9 @@
 {
    "name": "xiradorn/lastpostmobile",
    "type": "phpbb-extension",
-   "description": "Enable the last post under the every forum in mobile phpbb view",
+   "description": "Enable the last post under the every forumlist and topiclist in mobile phpbb view when the viewport is under 500px foro forumlist a 700px for topiclist",
    "homepage": "http://xiradorn.it",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "time": "2015-11-05",
    "keywords": [
 		"phpbb",

@@ -1,11 +1,11 @@
 Last Post on Mobile View
 ============
 
-Extensione - phpBB 3.1 per mostrare alla base di ogni forum, l'ultimo messaggio scritto. Attualmente quando il viewport è molto piccolo come ad esempio uno smartphone, non è possibile visionarlo.
+Extensione - phpBB 3.1 Abilita la visione dell'ultimo post anche nel breakpoint a 500px. In sostanza ne permette la visione sia nel forumlist, sia nella topiclist quando il viewport è molto piccolo come ad esempio un smartphone o dispositivi con una larghezza inferiore a 500px
 
-![Mobile Version](last.jpg)  
-`Mobile Version`
-  
+![ForumList](last.jpg) ![TopicList](last_t.jpg)  
+`Forumlist` | `Topiclist`  
+
 ============  
 
 #### Requisiti
@@ -26,5 +26,4 @@ Extensione - phpBB 3.1 per mostrare alla base di ogni forum, l'ultimo messaggio 
 ### License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
 
-© 2015 
-- Sir Xiradorn - Lead Developer
+© 2015 - Sir Xiradorn - Lead Developer
